@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jhastin Portfolio</title>
+    <title>Jhastin Narciso</title>
     <!-- Font Awesome CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
@@ -11,12 +11,12 @@
         /* General Styles */
         body {
             margin: 0;
-            font-family: Arial, sans-serif;
-            background-image: url('/src/portfolio_template_frontend/assets/images/back.jpg');
+            font-family: "Times New Roman", Times, serif;
+            background-image: url('images/devcon_background.png');
             background-repeat: no-repeat;
             background-position: left;
             background-size: cover;
-            color: white;
+            color: rgb(255, 255, 255);
             position: relative;
             overflow: hidden;
             display: flex;
@@ -29,14 +29,14 @@
         .container {
             display: flex;
             flex-direction: column;
-            align-items: left;
+            align-items: center;
             justify-content: flex-start; 
             max-height: 100vh; 
             overflow-y: auto; 
             width: 100%;
             padding: 20px;
             box-sizing: border-box;
-            text-align: center;
+            text-align: left;
         }
 
 
@@ -52,16 +52,23 @@
                         0 0 30px 10px rgba(0, 191, 255, 0.5);
             transition: box-shadow 0.3s ease-in-out;
             margin-top: 25px;
-            
         }
 
+        .about-me {
+            display: flex;
+            align-items: center;
+            gap: 20px; 
+            flex-wrap: wrap;
+            justify-content: left; 
+        }
+      
         /* Header Layout */
         .header {
             display: flex;
             align-items: center;
             gap: 20px; 
             flex-wrap: wrap;
-            justify-content: center; 
+            justify-content: left; 
         }
 
         h1 {
@@ -77,7 +84,7 @@
         .links {
             margin: 20px 0;
             display: flex;
-            justify-content: center;
+            justify-content: left;
             gap: 15px;
         }
 
@@ -108,15 +115,14 @@
         /* Footer Logos */
         .footer-logos {
             display: flex;
-            justify-content: center;
-            align-items: center;
+            justify-content: left;
             gap: 30px;
             margin-top: 20px;
         }
 
         .footer-logo {
-            width: 105px;
-            height: 105px;
+            width: 175px;
+            height: 175px;
             object-fit: contain;
         }
 
@@ -140,8 +146,6 @@
                 height: 200px;
                 margin-bottom: 10px;
                 margin-top: 25px;
-                align-items: center;
-                justify-content: center;
             }
 
             .description {
@@ -261,8 +265,8 @@
         }
 
         .landing-image img {
-            width: 100px;
-            height: 100px;
+            width: 200px;
+            height: 200px;
             padding: 20px;
             object-fit: contain;
             border-radius: 50%;
@@ -350,8 +354,6 @@
             .landing-text h2 {
                 font-size: 1.5em;
                 margin-bottom: 8px;
-                text-align: center;
-                align-items: center;
             }
 
             .landing-text p {
@@ -397,43 +399,37 @@
             transform: translateY(0);
             box-shadow: 0 3px 6px rgba(0, 139, 191, 0.5);
         }
-        
-        
+    
     </style>
 </head>
 <body>
     <div class="container">
         <!-- The rest of your HTML content goes here -->
         <div class="header">
-            <div class="profile-pic" style="background-image: url('/src/portfolio_template_frontend/assets/images/image.jpg');"></div>
+            <div class="profile-pic" style="background-image: url('images/image.jpg');"></div>
         </div>
 
         <!-- Placeholder for your name -->
-        <h1>Jhasin Kenneth Narciso</h1>
-        <p class="description">I am a Student from Holy Cross College </p>
-        <h3>About Me:</h3>
+        <h1>Jhastin Kenneth Narciso</h1>  
+        <p class="description">An IT Student who Enjoys coding and other stuff</p>
+     
 
         <!-- Placeholder for About Me Section -->
         <div class="about-me">
-            <h3>Personal Informaion</h3>
+            <h3>Hobbbies:</h3>
             <ul>
-                <li>I am 20 years old</li>
-                <li>Live in San Bartolome Sta Ana Pampanga</li>
-                <li>I am KBS of Sta Ana Parish</li>
+                <li>Online games</li>
+                <li>Watching tiktok</li>
+                <li>Reading Manga</li>
             </ul>
 
-            <h3>Personal Hobbies</h3>
-            <ul>
-                <li>I like play online games</li>
-                <li>Also I Like Listening Music</li>
-                <li>I like also to draw when i'm bored</li>
-            </ul>
-        </div>
+            
+</div>
 
         <!-- Centered Links -->
         <div class="links">
             <a href="https://www.linkedin.com/in/john-richard-alix-666481230/"><i class="fab fa-linkedin"></i>LinkedIn</a>
-            <a href="https://github.com/JhastinNar"><i class="fab fa-github"></i>GitHub</a>
+            <a href="https://github.com/yhnalx"><i class="fab fa-github"></i>GitHub</a>
             <a href="https://www.facebook.com/yhnalx"><i class="fab fa-facebook"></i>Facebook</a>
         </div>
 
@@ -453,7 +449,7 @@
             <div class="landing-page">
                 <div class="landing-content">
                     <div class="landing-image">
-                        <img src="" alt="ICP Logo">
+                        <img src="images/icp-logo.png" alt="ICP Logo">
                     </div>
                     <div class="landing-text">
                         <h2>About ICP</h2>
@@ -466,7 +462,7 @@
                             <li>ICP token: The ICP token is used for governance, to reward network participants, and to pay fees for making transactions.</li>
                         </ul>
                         <!-- Learn More Button -->
-                        <a href="" class="learn-more-btn">Learn More</a>
+                        <a href="https://internetcomputer.org/" class="learn-more-btn">Learn More</a>
                     </div>
                 </div>
             </div>
@@ -474,8 +470,8 @@
 
             
             <div class="footer-logos">
-                <img src="" alt="DEVCON Logo" class="footer-logo">
-                <img src="" alt="ICP Logo" class="footer-logo">
+                <img src="images/devcon-logo.png" alt="DEVCON Logo" class="footer-logo">
+                <img src="images/icp-logo.png" alt="ICP Logo" class="footer-logo">
             </div>
         </div>
     </div>
